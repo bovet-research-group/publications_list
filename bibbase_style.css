@@ -1,0 +1,41 @@
+#group_article div.bibbase_group i+span { display: none; }
+#group_inproceedings div.bibbase_group i+span { display: none; }
+#group_mastersthesis div.bibbase_group i+span { display: none; }
+#group_phdthesis div.bibbase_group i+span { display: none; }
+#group_techreport div.bibbase_group i+span { display: none; }
+#group_unpublished div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
+#group_misc div.bibbase_group i+span { display: none; }
+
+#group_article div.bibbase_group i:after { content: " Journal Articles" ; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-style:italic }
+#group_inproceedings div.bibbase_group i:after { content: " Conference Publications"; font-family: sans-serif;font-weight: 400; font-style:italic }
+#group_mastersthesis div.bibbase_group i:after { content: " Master's Thesis"; font-family: sans-serif; font-weight: 400; font-style:italic }
+#group_phdthesis div.bibbase_group i:after { content: " PhD Thesis"; font-family: sans-serif; font-weight: 400; font-style:italic }
+#group_techreport div.bibbase_group i:after { content: " Technical Report"; font-family: sans-serif; font-weight: 400; font-style:italic }
+#group_unpublished div.bibbase_group i:after { content: " Unpublished": font-family: sans-serif; font-weight: 400; font-style:italic }
+#group_incollection div.bibbase_group i:after { content: " Book Chapters"; font-family: sans-serif; font-weight: 400; font-style:italic }
+#group_misc div.bibbase_group i:after { content: " Preprints"; font-family: sans-serif;  font-weight: 400; font-style:italic}
+
+
+.bibbase_paper_title {    
+    display: block;
+}
+span.bibbase_paper_author {
+    display: block;
+}
+br.bibbase_paper_content {
+    display: block;
+}
+
+li.groupby.author {
+  display: none;
+}
+li.groupby.downloads {
+  display: none;
+}
+
+a[href^="http://arxiv.org"] .bibbase_icon { display: none; }
+a[href^="http://arxiv.org"] .bibbase_icon_text { display: inline-block; }
+
+
+
